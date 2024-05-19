@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Dosha Maternal and Child Health Center">
+<meta name="keywords" content="HTML, CSS">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Beenaa Irrenso">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title> DOSHA MATERNAL AND HEALTH CENTER</title>
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+<style>
+* { 
+  box-sizing:border-box;
+}
+
+/* style the body*/
+body {
+  margin: 0;
+  font-family:Georgia, serif;
+}
+
+::selection {
+  color: red;
+  background: yellow;
+}
+
+h1 { 
+  text-align: center;
+  font-family:Verdana, sans-serif;
+  font-size: 4vw;
+  color: #7b68ee;
+}
+
+/* Style the navigation bar links */
+div.navigation ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: blue;
+  list-style-type: none;
+  width: 100%;
+}
+
+div.navigation li {
+  float: left;
+  border-right:2px solid violet;
+  list-style-type: none;
+}
+
+div.navigation li:last-child  {
+  border-right: none;
+}
+
+div.navigation li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {  
+  background-color: #111;
+}
+
+.active {
+  background-color: #04aa6d;
+}
+
+.facility {
+  list-style-type: circle;
+  color:#4b0082;
+  font-size: 3vw;
+}
+
+ /* style footer*/
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left column */
+.column.left {
+  width: 35%;
+}
+
+div.icon-bar ul {
+  display: block;
+  text-align: left;
+  padding: 2px
+}
+
+div.icon-bar li {
+  list-style-type: none;
+  margin: 2px;
+  color: #0000ff;
+  font-size: 2vw;
+}
+
+div.icon-bar a {
+  display: block;
+  color: #8a2be2;
+  text-align: left;
+  padding: 2px;
+  text-decoration: none;
+  font-size: 1vw;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+/* Middle column */
+.column.middle {
+  width: 30%;
+}
+
+div.quick ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+div.quick li {
+  list-style-type: none;
+  margin: 4px;
+}
+
+div.quick li a {
+  display: block;
+  color: #ff00ff;
+  padding: 10px;
+  text-align: left;
+  text-decoration: none;
+  font-size: 2vw;
+}
+
+/*right column */
+.column.right {
+  width: 35%;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px;
+  border-radius: 100%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-whatsapp {
+  background: #008000;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-telegram {
+  background: #1e90ff;
+  color: white;
+}
+
+div.footer {
+background: #adff2f;
+width: 100%;
+}
+
+div.footer h2 {
+  text-align: left;
+  font-family:Verdana, sans-serif;
+  font-size: 3vw;
+  color: #1e90ff;
+}
+
+/* Clear floats after the columns */
+.footer::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.copy {
+  background: #adff2f;
+  width: 100%;
+}
+
+div.copy p { 
+  overflow-x: visible;
+  overflow-y: visible;
+  text-align: justify;
+  text-overflow: ellipsis;
+  font-size:1vw;
+  color:#4b0082;
+  font-family:Georgia, serif; 
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+    .column.left, .column.middle, .column.right {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="navigation">
+  <ul>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="services.html">Our Services</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+    <li><a href="premises and facility.html">Our Premises&Facility</a></li>
+  </ul>
+</div>
+
+<br>
+<h1>FACILITY MANIFOLD</h1>
+
+<div class="facility">
+  <ol>
+    <li>Outpatient department</li>
+    <li>Inpatient department with 20 beds</li>
+    <li>Nursery/NICU/ for essential newborn care</li>
+    <li>Fully furnished major and minor operation theatre</li>
+    <li>Delivery units</li>
+    <li>Pharmacy Department</li>
+    <li>Store</li>
+    <li>Laundry</li>
+    <li>Uninterrupted electrical supply</li>
+    <li>Café & staff stations</li>
+    <li>Children play ground</li>
+    <li>Waste disposal facilities</li>
+    <li>Parking space</li>
+    <li>Fully equipped laboratory unit</li>
+  </ol>
+</div>
+
+<div class="footer">
+  <div class="column left">
+    <h2>Get In Touch</h2>
+    <div class="icon-bar">
+      <ul>
+        <a href="#"><i class="fa fa-phone"></i></a>
+        <li>+251911697977</li> 
+        <a href="#"><i class="fa fa-envelope"></i></a>
+        <li>ayeledgk@gmail.com</li> 
+        <a href="#"><i class="fa fa-globe"></i></a>
+        <li>Furi,Sheggar,Oromia,Ethiopia</li>
+      </ul>
+    </div> 
+  </div>
+  <div class="column middle">
+    <h2>Quick Links</h2>
+    <div class="quick">
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="services.html">Our Services</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="premises and facility.html">Our Premises&Facility</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="column right">
+    <h2>Follow Us</h2>
+    <div class="icons">
+      <!-- Add font awesome icons -->
+      <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F/profile.php?id=61558836633437" class="fa fa-facebook"></a>
+      <a href="https://www.linkedin.com" class="fa fa-linkedin"></a>
+      <a href="https://web.whatsapp.com/#" class="fa fa-whatsapp"></a>
+      <a href="https://www.youtube.com" class="fa fa-youtube"></a>
+      <a href="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=152&ct=1716023564&rver=7.5.2156.0&wp=MBI_SSL&wreply=https%3A%2F%2Flw.skype.com%2Flogin%2Foauth%2Fproxy%3Fclient_id%3D572381%26redirect_uri%3Dhttps%253A%252F%252Fweb.skype.com%252FAuth%252FPostHandler%26state%3D080b3447-b4bc-4ca6-9afb-9709e6f3d16b&lc=1033&id=293290&mkt=en-US&psi=skype&lw=1&cobrandid=2befc4b5-
+        19e3-46e8-8347-77317a16a5a5&client_flight=ReservedFlight33%2CReservedFlight67" class="fa fa-skype"></a>
+      <a href="https://web.telegram.org/a/#-1001224624669" class="fa fa-telegram"></a>
+    </div>
+  </div>
+</div>
+<div class="copy">
+  <prev>
+    <hr>
+    <br>
+    <p><em>© DOSHA MATERNAL AND CHILD HEALTH CENTER. © All Rights Reserved.- 2024</em></p>
+    <p style="text-align:right;"><i>made by Beenaa Irrenso</i></p>
+    <br>
+  </prev>
+</div>
+
+</body>
+</html>
